@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { MapTrackingComponent } from './map-tracking/map-tracking.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { TrackingListComponent } from './tracking-list/tracking-list.component';
+import { DriversVehiclesComponent } from './drivers-vehicles/drivers-vehicles.component';
 
 export const routes: Routes = [
     {
@@ -26,6 +27,10 @@ export const routes: Routes = [
                 path: 'tracking-list',
                 component: TrackingListComponent
             },
+            {
+                path:'drivers-vehicles',
+                component: DriversVehiclesComponent
+            }
         ]
     },
    

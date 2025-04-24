@@ -8,5 +8,4 @@ import { OlaMaps } from 'olamaps-web-sdk';
   styleUrl: './tracking-list.component.scss'
 })
 export class TrackingListComponent {
-
 }
